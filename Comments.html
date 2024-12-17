@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Leave your comments and interact with the content on this page.">
     <title>Your Comments</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js" defer></script>
@@ -18,10 +19,11 @@
             <a href="comments.html">Your Comments</a>
         </nav>
     </header>
+
     <main>
         <section>
             <h2>Leave a Comment</h2>
-            <form action="#" method="post">
+            <form id="comment-form">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required><br><br>
 
@@ -34,6 +36,7 @@
                 <button type="submit">Submit</button>
             </form>
         </section>
+
         <section>
             <h2>Comments Section</h2>
             <div id="comments-display">
@@ -41,6 +44,7 @@
             </div>
         </section>
     </main>
+
     <footer>
         <p>&copy; 2024 Arlonso Nazarius. All rights reserved.</p>
     </footer>
